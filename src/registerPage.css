@@ -1,0 +1,81 @@
+/* RegisterPage.css */
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos del formulario */
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="correo"], input[type="correo"] {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: var(--colorHF);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos del título y del enlace */
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    color: #3e8e41;
+  }

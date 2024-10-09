@@ -1,0 +1,92 @@
+:root {
+    --colorHF: #100800;
+    --colorBase: #fcf9f5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;   
+}
+
+header {
+    background-color: var(--colorHF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none; /* Sin subrayado */
+    font-family: 'Montserrat', Courier, monospace, sans-serif; /* Tipo de letra*/
+}
+
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif; /* Tipo de letra Arial */
+    font-size: 30px; /* Tamaño 24 */
+    font-weight: bold; /* Negrita */
+    
+}
+.carrito img {
+    width: auto; /* O el tamaño que desees */
+    height: 55px; /* Mantiene la proporción */
+}
+.iconos{
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción */
+}
+img {
+    color: white;
+    width: 100px;
+}
+
+main { 
+    background-color: var(--colorBase);
+}
+
+footer {
+    background-color: var(--colorHF);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Espacia el contenido en los extremos */
+    align-items: center; /* Alinea verticalmente el contenido */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 10px 30px;
+}
+h5, h6{
+    color: white;
+}
+.footer-centro{
+    text-align: center;
+}
+.social-link{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-around
+}
+.imagen-contenedor {
+    position: relative; /* Para posicionar el botón relativo a este contenedor */
+    text-align: center; /* Centra el contenido si es necesario */
+}
+
+.imagen-contenedor img {
+    width: 100%; /* Ajusta la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+.boton-menu {
+    position: absolute; /* Posiciona el botón sobre la imagen */
+    top: 80%; /* Ajusta la posición vertical */
+    left: 25%; /* Centra horizontalmente */
+    background-color: rgba(255, 255, 255); /* Fondo semi-transparente */
+    border: none; /* Sin borde */
+    border-radius: 15%;
+    padding: 10px 20px; /* Espaciado del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
